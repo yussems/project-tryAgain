@@ -1,5 +1,111 @@
+#root{
+  width: 700px;
+  height: 850px;
+  margin: auto;
+}
+.container{
+  margin-top: 20px;
+  
+}
+.msg-contain {
+  
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
 .messageBox {
   display: flex;
   justify-content: center;
   
+}
+.capsule {
+  border: 1px solid #ccc;
+  background-color: coral;
+  width: 350px;
+  height: 200px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.bottom-bar  textarea{
+  width: 200px;
+  height: 150px;
+  background-color: cornflowerblue;
+  color: brown;
+  border-radius: 15px;
+  
+} 
+.bottom-bar  textarea:focus{
+  background-color: yellow;
+  color: black;
+}
+
+.button{
+  width: 100px;
+  height: 50px;
+  border-radius: 15px ;
+  background-color: brown;
+  color: white;
+}
+
+.button:hover{
+  color: brown;
+  background-color: white;
+}
+.container {
+  border:1px solid black;
+}
+.topbar{
+  
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height:350px;
+  border-bottom: 1px solid black;
+  background: linear-gradient(90deg, coral,blue);
+}
+
+.incomingMessage{
+  margin: 15px 10px ;
+  width: 35%;
+  background-color: cornflowerblue;
+  border-radius: 15px;
+  text-align: center;  
+  align-self: flex-end;
+  
+}
+.incomingMessage p {
+  overflow-y: scroll;
+  background-color: crimson;
+  margin: 15px  15px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: scroll;
+  width: 75%;
+  height: 75px;
+  word-wrap: break-word; 
+}
+
+
+.outgoingMessage{
+  margin: 15px 10px ;
+  width: 35%;
+  background-color: cornflowerblue;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.outgoingMessage p {
+  
+  background-color: crimson;
+  margin: 15px  15px;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-y: scroll;
+  width: 75%;
+  height: 75px;
+  word-wrap: break-word;
 }

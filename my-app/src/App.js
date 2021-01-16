@@ -4,9 +4,10 @@ import MessageBox from  './components/MessageBox'
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
-      <ChatBox/>
-      <MessageBox/>
+      <div className='container'>
+        <ChatBox/>
+        <MessageBox/>
+      </div>
     </div>
   );
 }
